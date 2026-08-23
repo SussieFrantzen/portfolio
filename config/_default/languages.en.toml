@@ -8,7 +8,5 @@ title = "Sussie's portfolio"
 displayName = "EN"
 isoCode = "en"
 rtl = false
-dateFormat = "23 August 2026"
-
 ["params.author"]
 name = "Sussie Frantzen"

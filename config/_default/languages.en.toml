@@ -2,13 +2,13 @@ disabled = false
 locale = "en"
 label = "English"
 weight = 1
-title = "Sussie' portfolio"
+title = "Sussie's portfolio"
 
 [params]
 displayName = "EN"
 isoCode = "en"
 rtl = false
-dateFormat = "2 January 2006"
+dateFormat = "23 August 2026"
 
 ["params.author"]
 name = "Sussie Frantzen"

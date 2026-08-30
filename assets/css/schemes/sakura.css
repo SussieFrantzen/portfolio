@@ -1,0 +1,541 @@
+/* ============================================================
+   SAKURA WASHI
+   Hugo Blowfish custom color scheme
+
+   Palette:
+   🌸 Sakura pink
+   🍵 Matcha green
+   🏯 Warm beige / washi
+   🖋 Warm dark ink
+   ============================================================ */
+
+
+/* ============================================================
+   LIGHT MODE
+   ============================================================ */
+
+:root {
+
+  /* ----------------------------------------------------------
+     NEUTRAL
+     Warm washi paper / beige / ink
+     ---------------------------------------------------------- */
+
+  --color-neutral-50: 250 246 238;
+  --color-neutral-100: 247 241 230;
+  --color-neutral-200: 238 226 207;
+  --color-neutral-300: 224 207 181;
+  --color-neutral-400: 193 169 143;
+  --color-neutral-500: 157 132 111;
+  --color-neutral-600: 119 94 78;
+  --color-neutral-700: 88 68 58;
+  --color-neutral-800: 59 47 42;
+  --color-neutral-900: 48 40 36;
+  --color-neutral-950: 38 31 28;
+
+
+  /* ----------------------------------------------------------
+     PRIMARY
+     Sakura blossom
+     ---------------------------------------------------------- */
+
+  --color-primary-50: 255 247 248;
+  --color-primary-100: 250 231 235;
+  --color-primary-200: 243 204 213;
+  --color-primary-300: 232 170 186;
+  --color-primary-400: 217 143 165;
+  --color-primary-500: 204 119 143;
+  --color-primary-600: 183 91 118;
+  --color-primary-700: 153 70 94;
+  --color-primary-800: 122 58 77;
+  --color-primary-900: 98 49 64;
+  --color-primary-950: 65 33 43;
+
+
+  /* ----------------------------------------------------------
+     SECONDARY
+     Matcha
+     ---------------------------------------------------------- */
+
+  --color-secondary-50: 248 248 239;
+  --color-secondary-100: 237 239 220;
+  --color-secondary-200: 218 222 193;
+  --color-secondary-300: 194 201 159;
+  --color-secondary-400: 166 177 125;
+  --color-secondary-500: 145 158 105;
+  --color-secondary-600: 120 134 84;
+  --color-secondary-700: 96 109 68;
+  --color-secondary-800: 76 87 55;
+  --color-secondary-900: 61 70 46;
+  --color-secondary-950: 40 47 31;
+}
+
+
+/* ============================================================
+   DARK MODE
+   Sakura at night
+   ============================================================ */
+
+.dark {
+
+  /* ----------------------------------------------------------
+     NEUTRAL
+     Warm dark brown / plum
+     ---------------------------------------------------------- */
+
+  --color-neutral-50: 247 239 230;
+  --color-neutral-100: 230 218 204;
+  --color-neutral-200: 204 187 170;
+  --color-neutral-300: 174 153 137;
+  --color-neutral-400: 143 121 107;
+  --color-neutral-500: 116 94 83;
+  --color-neutral-600: 92 72 64;
+  --color-neutral-700: 73 56 51;
+  --color-neutral-800: 57 43 41;
+  --color-neutral-900: 44 33 33;
+  --color-neutral-950: 31 23 25;
+
+
+  /* ----------------------------------------------------------
+     PRIMARY
+     Bright Sakura for dark mode
+     ---------------------------------------------------------- */
+
+  --color-primary-50: 255 235 241;
+  --color-primary-100: 253 211 222;
+  --color-primary-200: 247 178 198;
+  --color-primary-300: 239 146 173;
+  --color-primary-400: 230 119 150;
+  --color-primary-500: 218 97 132;
+  --color-primary-600: 201 78 116;
+  --color-primary-700: 177 64 98;
+  --color-primary-800: 148 54 82;
+  --color-primary-900: 118 45 66;
+  --color-primary-950: 79 31 45;
+
+
+  /* ----------------------------------------------------------
+     SECONDARY
+     Dark Matcha
+     ---------------------------------------------------------- */
+
+  --color-secondary-50: 239 242 220;
+  --color-secondary-100: 217 224 189;
+  --color-secondary-200: 187 199 149;
+  --color-secondary-300: 158 174 116;
+  --color-secondary-400: 133 151 94;
+  --color-secondary-500: 111 130 77;
+  --color-secondary-600: 91 109 65;
+  --color-secondary-700: 73 89 55;
+  --color-secondary-800: 58 70 45;
+  --color-secondary-900: 47 57 38;
+  --color-secondary-950: 31 38 26;
+}
+
+
+/* ============================================================
+   GENERAL SAKURA STYLING
+   ============================================================ */
+
+/* Text selection */
+
+::selection {
+  background: rgb(232 170 186);
+  color: rgb(65 33 43);
+}
+
+.dark ::selection {
+  background: rgb(177 64 98);
+  color: rgb(255 235 241);
+}
+
+
+/* Links */
+
+a {
+  transition:
+    color 0.2s ease,
+    opacity 0.2s ease;
+}
+
+
+/* Sakura links */
+
+.prose a {
+  color: rgb(183 91 118);
+}
+
+.prose a:hover {
+  color: rgb(153 70 94);
+}
+
+.dark .prose a {
+  color: rgb(239 146 173);
+}
+
+.dark .prose a:hover {
+  color: rgb(253 211 222);
+}
+
+
+/* ============================================================
+   HEADINGS
+   ============================================================ */
+
+h1,
+h2,
+h3 {
+  letter-spacing: -0.025em;
+}
+
+h1 {
+  color: rgb(112 75 82);
+}
+
+.dark h1 {
+  color: rgb(247 178 198);
+}
+
+h2,
+h3 {
+  color: rgb(119 94 78);
+}
+
+.dark h2,
+.dark h3 {
+  color: rgb(230 119 150);
+}
+
+
+/* ============================================================
+   HERO / TITLE
+   ============================================================ */
+
+/*
+   If your Blowfish layout uses a hero section, this gives it
+   the warm Sakura/Washi appearance.
+*/
+
+.sakura-hero {
+  position: relative;
+  overflow: hidden;
+
+  background:
+    radial-gradient(
+      circle at 12% 20%,
+      rgba(217, 143, 165, 0.22),
+      transparent 32%
+    ),
+    radial-gradient(
+      circle at 88% 80%,
+      rgba(145, 158, 105, 0.16),
+      transparent 32%
+    ),
+    linear-gradient(
+      135deg,
+      #f7f1e6,
+      #eee1cf
+    );
+
+  border: 1px solid rgba(112, 75, 82, 0.12);
+
+  border-radius: 1.5rem;
+
+  box-shadow:
+    0 20px 50px rgba(80, 60, 45, 0.10);
+}
+
+
+/* Dark hero */
+
+.dark .sakura-hero {
+  background:
+    radial-gradient(
+      circle at 12% 20%,
+      rgba(218, 97, 132, 0.18),
+      transparent 32%
+    ),
+    radial-gradient(
+      circle at 88% 80%,
+      rgba(111, 130, 77, 0.14),
+      transparent 32%
+    ),
+    linear-gradient(
+      135deg,
+      #2c2123,
+      #211b1b
+    );
+
+  border: 1px solid rgba(218, 97, 132, 0.15);
+
+  box-shadow:
+    0 20px 60px rgba(0, 0, 0, 0.30);
+}
+
+
+/* ============================================================
+   HERO TITLE
+   ============================================================ */
+
+.sakura-hero h1 {
+  color: #704b52;
+
+  text-shadow:
+    0 1px 0 rgba(255, 255, 255, 0.5);
+}
+
+.dark .sakura-hero h1 {
+  color: #f7b2c6;
+
+  text-shadow:
+    0 2px 15px rgba(218, 97, 132, 0.15);
+}
+
+
+/* Hero subtitle */
+
+.sakura-hero p {
+  color: #775e4e;
+}
+
+.dark .sakura-hero p {
+  color: #ccbbaa;
+}
+
+
+/* ============================================================
+   BUTTONS
+   ============================================================ */
+
+button,
+.btn {
+  transition:
+    background-color 0.2s ease,
+    border-color 0.2s ease,
+    transform 0.2s ease;
+}
+
+
+/* Primary button */
+
+.sakura-button {
+  background: #cc778f;
+  color: #fff7f8;
+
+  border: 1px solid #b75b76;
+
+  border-radius: 0.75rem;
+
+  padding: 0.65rem 1.2rem;
+
+  box-shadow:
+    0 6px 18px rgba(183, 91, 118, 0.20);
+}
+
+.sakura-button:hover {
+  background: #b75b76;
+
+  transform: translateY(-1px);
+}
+
+
+/* Dark button */
+
+.dark .sakura-button {
+  background: #da6184;
+  color: #fff5f7;
+
+  border-color: #c94e74;
+
+  box-shadow:
+    0 6px 22px rgba(218, 97, 132, 0.20);
+}
+
+.dark .sakura-button:hover {
+  background: #e67796;
+}
+
+
+/* ============================================================
+   CARDS
+   ============================================================ */
+
+.sakura-card {
+  background: rgba(247, 241, 230, 0.72);
+
+  border: 1px solid rgba(112, 75, 82, 0.10);
+
+  border-radius: 1rem;
+
+  box-shadow:
+    0 10px 35px rgba(80, 60, 45, 0.07);
+
+  transition:
+    transform 0.2s ease,
+    box-shadow 0.2s ease;
+}
+
+.sakura-card:hover {
+  transform: translateY(-2px);
+
+  box-shadow:
+    0 15px 40px rgba(80, 60, 45, 0.11);
+}
+
+
+.dark .sakura-card {
+  background: rgba(57, 43, 41, 0.72);
+
+  border-color: rgba(218, 97, 132, 0.10);
+
+  box-shadow:
+    0 15px 45px rgba(0, 0, 0, 0.20);
+}
+
+
+/* ============================================================
+   DECORATIVE SAKURA LINE
+   ============================================================ */
+
+.sakura-divider {
+  height: 1px;
+
+  background:
+    linear-gradient(
+      90deg,
+      transparent,
+      #d98fa5,
+      #9aa77a,
+      #d98fa5,
+      transparent
+    );
+
+  opacity: 0.65;
+
+  margin: 2rem 0;
+}
+
+
+/* ============================================================
+   MATCHA ACCENT
+   ============================================================ */
+
+.sakura-matcha {
+  color: #667052;
+}
+
+.dark .sakura-matcha {
+  color: #9aae78;
+}
+
+
+/* Matcha badge */
+
+.sakura-matcha-badge {
+  display: inline-block;
+
+  background: rgba(145, 158, 105, 0.15);
+
+  color: #667052;
+
+  border: 1px solid rgba(120, 134, 84, 0.20);
+
+  border-radius: 999px;
+
+  padding: 0.25rem 0.7rem;
+
+  font-size: 0.85rem;
+}
+
+.dark .sakura-matcha-badge {
+  background: rgba(111, 130, 77, 0.15);
+
+  color: #a6b97d;
+
+  border-color: rgba(158, 174, 116, 0.20);
+}
+
+
+/* ============================================================
+   QUOTES
+   ============================================================ */
+
+blockquote {
+  border-left-color: rgb(217 143 165);
+}
+
+.dark blockquote {
+  border-left-color: rgb(230 119 150);
+}
+
+
+/* ============================================================
+   CODE
+   ============================================================ */
+
+code {
+  color: rgb(153 70 94);
+}
+
+.dark code {
+  color: rgb(239 146 173);
+}
+
+
+/* ============================================================
+   SUBTLE SAKURA GLOW
+   ============================================================ */
+
+.sakura-glow {
+  box-shadow:
+    0 0 40px rgba(217, 143, 165, 0.12);
+}
+
+.dark .sakura-glow {
+  box-shadow:
+    0 0 50px rgba(218, 97, 132, 0.10);
+}
+
+
+/* ============================================================
+   OPTIONAL: PETAL DECORATION
+
+   Add class="sakura-petals" to an element if you want a
+   subtle decorative Sakura atmosphere.
+   ============================================================ */
+
+.sakura-petals {
+  position: relative;
+  overflow: hidden;
+}
+
+.sakura-petals::before,
+.sakura-petals::after {
+  content: "✿";
+
+  position: absolute;
+
+  color: rgba(217, 143, 165, 0.22);
+
+  pointer-events: none;
+}
+
+.sakura-petals::before {
+  top: 1.5rem;
+  right: 2rem;
+
+  font-size: 2rem;
+
+  transform: rotate(15deg);
+}
+
+.sakura-petals::after {
+  bottom: 1rem;
+  left: 2rem;
+
+  font-size: 1.5rem;
+
+  color: rgba(145, 158, 105, 0.18);
+
+  transform: rotate(-20deg);
+}

@@ -1,5 +1,5 @@
-colorScheme = "blowfish"
-defaultAppearance = "dark"
+colorScheme = "sakura"
+defaultAppearance = "ligth"
 autoSwitchAppearance = true
 enableA11y = false
 enableSearch = true
@@ -30,7 +30,7 @@ browserRedirectHomeOnly = true
 storedLanguageRedirect = true
 
 [header]
-layout = "basic"
+layout = "fixed"
 
 [footer]
 showMenu = true

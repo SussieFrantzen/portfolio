@@ -2,19 +2,19 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Authors on Sussie&#39;s portfolio</title>
-    <link>http://localhost:1313/authors/</link>
+    <link>http://localhost:55344/authors/</link>
     <description>Recent content in Authors on Sussie&#39;s portfolio</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>© 2026 Sussie Frantzen</copyright>
-    <lastBuildDate>Sat, 22 Aug 2026 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/authors/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 22 Aug 2026 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:55344/authors/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>Sussie Frantzen</title>
-      <link>http://localhost:1313/authors/sussie-frantzen/</link>
+      <link>http://localhost:55344/authors/sussie-frantzen/</link>
       <pubDate>Sat, 22 Aug 2026 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/authors/sussie-frantzen/</guid>
+      <guid>http://localhost:55344/authors/sussie-frantzen/</guid>
       <description></description>
       
     </item>

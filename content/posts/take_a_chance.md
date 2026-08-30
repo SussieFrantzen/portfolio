@@ -13,7 +13,7 @@ authors:
 ---
 
 ## 3. Semester projekt - Take a chance
-Uge 1:
+### Uge 1:
 <br>
 Jeg startede med at brainstorme 3 ideer til et projekt. 
 <br>
@@ -98,4 +98,6 @@ I denne uge har jeg:
 •	På begyndt et Figma -skitser
 <br>
 •	Fået Portfolio opsat.
+
+
 

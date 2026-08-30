@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Uge 2 on Sussie&#39;s portfolio</title>
+    <link>http://localhost:53123/series/uge-2/</link>
+    <description>Recent content in Uge 2 on Sussie&#39;s portfolio</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <copyright>© 2026 Sussie Frantzen</copyright>
+    <lastBuildDate>Sat, 22 Aug 2026 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:53123/series/uge-2/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Take_a_Chance</title>
+      <link>http://localhost:53123/posts/week2/</link>
+      <pubDate>Sat, 22 Aug 2026 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:53123/posts/week2/</guid>
+      <description></description>
+      
+    </item>
+    
+  </channel>
+</rss>

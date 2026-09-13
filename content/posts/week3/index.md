@@ -23,8 +23,6 @@ samt er coin også lavet med en enkelt metode.
 
 ![klassediagram_2](klassediagram_2.png)
 
-Mine user stories er næsten på plads jeg skal blot have valgt hvordan formuleringen arter sig bedst.
-Således at der ikke opstår uklare ønsker til programmets funktioner.
 
 ## US story i den rækkefølge de vil blive håndteret efter:
 

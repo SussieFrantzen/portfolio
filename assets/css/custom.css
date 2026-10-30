@@ -1,0 +1,135 @@
+/* ============================================================
+   SAKURA WASHI — BREDERE HTML-TABELLER
+   ============================================================ */
+
+/* Gør HTML-tabeller bredere end artikelkolonnen */
+.prose table {
+  display: table !important;
+  width: 60vw !important;
+  max-width: 60vw !important;
+  margin-left: calc((100% - 60vw) / 2 + 12vw) !important;
+  margin-right: 0 !important;
+  table-layout: auto;
+  border-collapse: collapse;
+}
+
+/* Bevar læsbarheden */
+.prose table th,
+.prose table td {
+  white-space: normal;
+  overflow-wrap: anywhere;
+  vertical-align: top;
+}
+
+/* Mobil */
+@media (max-width: 768px) {
+  .prose table {
+    width: 100% !important;
+    max-width: 100% !important;
+    margin-left: 0 !important;
+    margin-right: 0 !important;
+    display: block !important;
+    overflow-x: auto;
+  }
+}
+.prose table {
+  table-layout: fixed;
+  overflow-wrap: anywhere;
+  word-wrap: break-word;
+}
+
+.prose table th,
+.prose table td {
+  white-space: normal !important;
+  overflow-wrap: anywhere;
+  word-break: normal;
+  vertical-align: top;
+  min-width: 0;
+  box-sizing: border-box;
+}
+
+/* Ret tekst, der løber ind over naboceller */
+.prose table {
+  width: 60vw !important;
+  max-width: 60vw !important;
+  table-layout: fixed !important;
+  border-collapse: collapse;
+}
+
+.prose table tr {
+  height: auto !important;
+}
+
+.prose table th,
+.prose table td {
+  width: auto;
+  max-width: 0;
+  padding: 0.6rem;
+  white-space: normal !important;
+  overflow-wrap: anywhere !important;
+  word-break: normal !important;
+  vertical-align: top;
+  box-sizing: border-box;
+  overflow: hidden;
+}
+
+.prose table td *,
+.prose table th * {
+  max-width: 100% !important;
+  white-space: normal !important;
+  overflow-wrap: anywhere !important;
+  box-sizing: border-box;
+}
+
+.prose table p {
+  margin: 0.25rem 0;
+}
+
+/* Behold mobiltilpasningen */
+@media (max-width: 768px) {
+  .prose table {
+    width: 100% !important;
+    max-width: 100% !important;
+    table-layout: auto !important;
+  }
+}
+/* Sakura Washi — tilpassede kolonnebredder */
+
+.prose table {
+  width: 60vw !important;
+  max-width: 60vw !important;
+  table-layout: fixed !important;
+}
+
+/* Kolonne 1: US — smal */
+.prose table th:nth-child(1),
+.prose table td:nth-child(1) {
+  width: 7% !important;
+}
+
+/* Kolonne 2: Beskrivelse — god plads */
+.prose table th:nth-child(2),
+.prose table td:nth-child(2) {
+  width: 23% !important;
+}
+
+/* Kolonne 3: Acceptkriterier — mest plads */
+.prose table th:nth-child(3),
+.prose table td:nth-child(3) {
+  width: 40% !important;
+}
+
+/* Kolonne 4: Status */
+.prose table th:nth-child(4),
+.prose table td:nth-child(4) {
+  width: 30% !important;
+}
+
+/* Hold tekst inde i cellerne */
+.prose table th,
+.prose table td {
+  white-space: normal !important;
+  overflow-wrap: anywhere !important;
+  vertical-align: top;
+  box-sizing: border-box;
+}

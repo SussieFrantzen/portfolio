@@ -539,3 +539,58 @@ code {
 
   transform: rotate(-20deg);
 }
+
+* Begræns tabeller i artikelindhold */
+.prose table {
+  width: 100%;
+  max-width: 60vw;
+  margin: 1.5rem auto;
+
+  border-collapse: collapse;
+  table-layout: auto;
+}
+
+/* Celler */
+.prose th,
+.prose td {
+  padding: 0.65rem 0.85rem;
+  border: 1px solid rgb(193 169 143);
+  vertical-align: top;
+  text-align: left;
+}
+
+/* Overskrifter — Sakura Washi */
+.prose thead th {
+  background-color: rgb(238 226 207);
+  color: rgb(88 68 58);
+  font-weight: 700;
+}
+
+/* Skiftevis baggrund på rækker */
+.prose tbody tr:nth-child(even) {
+  background-color: rgb(247 241 230);
+}
+
+/* Dark mode */
+.dark .prose th,
+.dark .prose td {
+  border-color: rgb(92 72 64);
+}
+
+.dark .prose thead th {
+  background-color: rgb(57 43 41);
+  color: rgb(253 211 222);
+}
+
+.dark .prose tbody tr:nth-child(even) {
+  background-color: rgb(44 33 33);
+}
+
+/* Mobil: brug den tilgængelige bredde */
+@media (max-width: 768px) {
+  .prose table {
+    max-width: 100%;
+    display: block;
+    overflow-x: auto;
+  }
+}

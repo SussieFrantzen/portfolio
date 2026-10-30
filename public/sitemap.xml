@@ -3,6 +3,30 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
 
   <url>
+    <loc>http://localhost:1313/posts/testweek/</loc>
+    <lastmod>2026-10-29T00:00:00+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>http://localhost:1313/posts/us/</loc>
+    <lastmod>2026-10-29T00:00:00+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>http://localhost:1313/posts/week9/</loc>
+    <lastmod>2026-10-25T00:00:00+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>http://localhost:1313/posts/week5_8/</loc>
+    <lastmod>2026-09-20T00:00:00+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
     <loc>http://localhost:1313/posts/week4/</loc>
     <lastmod>2026-09-13T00:00:00+00:00</lastmod>
     <changefreq>daily</changefreq>
@@ -28,13 +52,13 @@
   </url>
   <url>
     <loc>http://localhost:1313/</loc>
-    <lastmod>2026-09-13T00:00:00+00:00</lastmod>
+    <lastmod>2026-10-29T00:00:00+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>http://localhost:1313/posts/</loc>
-    <lastmod>2026-09-13T00:00:00+00:00</lastmod>
+    <lastmod>2026-10-29T00:00:00+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>

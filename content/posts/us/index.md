@@ -644,7 +644,7 @@ authors:
   153;mso-border-alt:solid #47D459 .5pt;mso-border-themecolor:accent3;
   mso-border-themetint:153;padding:0cm 5.4pt 0cm 5.4pt'>
   <p class=MsoNormal style='margin-top:0cm;margin-right:0cm;margin-bottom:8.0pt;
-  margin-left:6.1pt;line-height:115%'><span style='font-family:"Times New Roman",serif'>Udf r
+  margin-left:6.1pt;line-height:115%'><span style='font-family:"Times New Roman",serif'>Udfør
   sin tur<o:p></o:p></span></p>
   <p class=MsoNormal style='margin-top:0cm;margin-right:0cm;margin-bottom:8.0pt;
   margin-left:6.1pt;line-height:115%'><span style='font-family:"Times New Roman",serif'>Som

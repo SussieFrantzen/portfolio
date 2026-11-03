@@ -163,7 +163,7 @@ authors:
   style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp; </span></span></span><![endif]><span
   style='font-family:"Times New Roman",serif;color:black;mso-color-alt:windowtext'><span
   style='mso-spacerun:yes'> </span>Hvis brugeren logger ud og senere logger ind
-  igen, skal de tidligere gemte spil stadig v re tilg ngelige.</span><span
+  igen, skal de tidligere gemte spil stadig være tilgængelige.</span><span
   style='font-family:"Times New Roman",serif'><o:p></o:p></span></p>
   <p class=MsoListParagraphCxSpMiddle style='margin-bottom:0cm;mso-add-space:
   auto;text-indent:-18.0pt;line-height:normal;mso-list:l4 level1 lfo6;
@@ -276,7 +276,7 @@ authors:
   <p class=MsoNormal style='margin-top:0cm;margin-right:0cm;margin-bottom:8.0pt;
   margin-left:6.1pt;line-height:115%'><span style='font-family:"Times New Roman",serif'>Som
   game-master vil jeg kunne vælge antallet af spillere, så jeg kan oprette
-  spillet med det  nskede antal deltagere.<o:p></o:p></span></p>
+  spillet med det ønskede antal deltagere.<o:p></o:p></span></p>
   </td>
   <td width=595 style='width:446.5pt;border-top:none;border-left:none;
   border-bottom:solid #47D459 1.0pt;mso-border-bottom-themecolor:accent3;
@@ -288,7 +288,7 @@ authors:
   mso-border-themetint:153;padding:0cm 5.4pt 0cm 5.4pt'>
   <p class=MsoNormal style='margin-top:0cm;margin-right:0cm;margin-bottom:8.0pt;
   margin-left:6.5pt;line-height:115%'><span style='font-family:"Times New Roman",serif'>1.
-  Game-master kan  bne spillerindstillinger fra startsk rmen.<o:p></o:p></span></p>
+  Game-master kan åbne spillerindstillinger fra startskærmen.<o:p></o:p></span></p>
   <p class=MsoNormal style='margin-top:0cm;margin-right:0cm;margin-bottom:8.0pt;
   margin-left:6.5pt;line-height:115%'><span style='font-family:"Times New Roman",serif'>2.
   Game-master kan angive antallet af spillere.<o:p></o:p></span></p>
@@ -470,13 +470,13 @@ authors:
   Game-master kan vælge &quot;Vælg bane/emne&quot; fra startmenuen.<o:p></o:p></span></p>
   <p class=MsoNormal style='margin-top:0cm;margin-right:0cm;margin-bottom:8.0pt;
   margin-left:6.5pt;line-height:115%'><span style='font-family:"Times New Roman",serif'>2.
-  Systemet viser de tilg ngelige emner/baner.<o:p></o:p></span></p>
+  Systemet viser de tilgængelige emner/baner.<o:p></o:p></span></p>
   <p class=MsoNormal style='margin-top:0cm;margin-right:0cm;margin-bottom:8.0pt;
   margin-left:6.5pt;line-height:115%'><span style='font-family:"Times New Roman",serif'>3.
   Game-master kan vælge et emne/bane.<o:p></o:p></span></p>
   <p class=MsoNormal style='margin-top:0cm;margin-right:0cm;margin-bottom:8.0pt;
   margin-left:6.5pt;line-height:115%'><span style='font-family:"Times New Roman",serif'>4.
-  Det valgte emne anvendes i det efterf lgende spil.<o:p></o:p></span></p>
+  Det valgte emne anvendes i det efterfølgende spil.<o:p></o:p></span></p>
   </td>
   <td width=359 style='width:268.9pt;border-top:none;border-left:none;
   border-bottom:solid #47D459 1.0pt;mso-border-bottom-themecolor:accent3;
@@ -547,8 +547,8 @@ authors:
   <p class=MsoNormal style='margin-top:0cm;margin-right:0cm;margin-bottom:8.0pt;
   margin-left:6.1pt;line-height:115%;mso-yfti-cnfc:64'><span style='font-family:
   "Times New Roman",serif;color:black;mso-color-alt:windowtext'>Som spiller vil
-  jeg kunne se min egen og de andre spilleres placeringer p  spillepladen, s 
-  jeg kan f lge spillets udvikling.</span><span style='font-family:"Times New Roman",serif'><o:p></o:p></span></p>
+  jeg kunne se min egen og de andre spilleres placeringer på  spillepladen, så 
+  jeg kan følge spillets udvikling.</span><span style='font-family:"Times New Roman",serif'><o:p></o:p></span></p>
   </td>
   <td width=595 style='width:446.5pt;border-top:none;border-left:none;
   border-bottom:solid #47D459 1.0pt;mso-border-bottom-themecolor:accent3;
@@ -664,7 +664,7 @@ authors:
   Den aktive spiller fremhæves tydeligt.<o:p></o:p></span></p>
   <p class=MsoNormal style='margin-top:0cm;margin-right:0cm;margin-bottom:8.0pt;
   margin-left:6.5pt;line-height:115%'><span style='font-family:"Times New Roman",serif'>2.
-  Spilleren kan se sine tilg ngelige handlinger.<o:p></o:p></span></p>
+  Spilleren kan se sine tilgængelige handlinger.<o:p></o:p></span></p>
   <p class=MsoNormal style='margin-top:0cm;margin-right:0cm;margin-bottom:8.0pt;
   margin-left:6.5pt;line-height:115%'><span style='font-family:"Times New Roman",serif'>3.
   Terning/spinner eller andre relevante spilleelementer kan aktiveres, når det
@@ -858,7 +858,7 @@ authors:
   Spillerens resultat bestemmer, om og hvor langt brikken flyttes.<o:p></o:p></span></p>
   <p class=MsoNormal style='margin-top:0cm;margin-right:0cm;margin-bottom:8.0pt;
   margin-left:6.5pt;line-height:115%'><span style='font-family:"Times New Roman",serif'>2.
-  Brikken animeres eller flyttes synligt p  spillepladen.<o:p></o:p></span></p>
+  Brikken animeres eller flyttes synligt på spillepladen.<o:p></o:p></span></p>
   <p class=MsoNormal style='margin-top:0cm;margin-right:0cm;margin-bottom:8.0pt;
   margin-left:6.5pt;line-height:115%'><span style='font-family:"Times New Roman",serif'>3.
   Spillerens point/status opdateres efter bev gelsen.<o:p></o:p></span></p>
@@ -1053,8 +1053,8 @@ authors:
   153;mso-border-alt:solid #47D459 .5pt;mso-border-themecolor:accent3;
   mso-border-themetint:153;padding:0cm 5.4pt 0cm 5.4pt'>
   <p class=MsoNormal style='margin-top:0cm;margin-right:0cm;margin-bottom:8.0pt;
-  margin-left:6.1pt;line-height:115%'><span style='font-family:"Times New Roman",serif'>Tr k
-  tilf ldigt kort<o:p></o:p></span></p>
+  margin-left:6.1pt;line-height:115%'><span style='font-family:"Times New Roman",serif'>Træk
+  tilfældigt kort<o:p></o:p></span></p>
   <p class=MsoNormal style='margin-top:0cm;margin-right:0cm;margin-bottom:8.0pt;
   margin-left:6.1pt;line-height:115%'><span style='font-family:"Times New Roman",serif'>Som
   spiller vil jeg automatisk få tildelt et tilfældigt kort, når jeg lander på
@@ -1151,7 +1151,7 @@ authors:
   <p class=MsoNormal style='margin-top:0cm;margin-right:0cm;margin-bottom:8.0pt;
   margin-left:6.1pt;line-height:115%;mso-yfti-cnfc:64'><span style='font-family:
   "Times New Roman",serif;color:black;mso-color-alt:windowtext'>Som spiller vil
-  jeg kunne se det kort, jeg har trukket, så jeg kan l se og forst  spørgsmålet
+  jeg kunne se det kort, jeg har trukket, så jeg kan løse og forstå spørgsmålet
   eller handlingen.</span><span style='font-family:"Times New Roman",serif'><o:p></o:p></span></p>
   </td>
   <td width=595 style='width:446.5pt;border-top:none;border-left:none;
@@ -1949,7 +1949,7 @@ authors:
   <p class=MsoNormal style='margin-top:0cm;margin-right:0cm;margin-bottom:8.0pt;
   margin-left:6.5pt;line-height:115%;mso-yfti-cnfc:64'><span style='font-family:
   "Times New Roman",serif;color:black;mso-color-alt:windowtext'>4. Et gemt spil
-  kan indl ses igen.</span><span style='font-family:"Times New Roman",serif'><o:p></o:p></span></p>
+  kan indlæses igen.</span><span style='font-family:"Times New Roman",serif'><o:p></o:p></span></p>
   </td>
   <td width=359 style='width:268.9pt;border-top:none;border-left:none;
   border-bottom:solid #47D459 1.0pt;mso-border-bottom-themecolor:accent3;
